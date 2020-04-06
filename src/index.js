@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import SimpleReducerApp from './SimpleReducerApp';
+import TodoApp from './TodoApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <SimpleReducerApp />
+    <TodoApp />
   </React.StrictMode>,
   document.getElementById('root')
 );

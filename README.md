@@ -31,3 +31,6 @@ const SimpleReducerApp = () => {
 }
 ```
 
+## TodoApp
+
+More advance in useReducer, an simple todo application
