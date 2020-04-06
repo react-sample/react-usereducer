@@ -1,12 +1,7 @@
-# Overview
+import React, { useReducer } from 'react';
 
-Sample tutorial for useReducer
+const initializeState = 0;
 
-## SampleReducerApp
-
-Minimize code to demo usage of useReducer
-
-```javascript
 const reducer = (state, action) => {
     switch (action.type){
         case 'inscrement':
@@ -29,5 +24,5 @@ const SimpleReducerApp = () => {
         </div>
     )
 }
-```
 
+export default SimpleReducerApp;
